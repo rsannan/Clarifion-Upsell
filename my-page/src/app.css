@@ -1,0 +1,78 @@
+#root {
+  font-family: "Manrope", sans-serif;
+}
+.bg-nav {
+  background-color: #252f3d;
+}
+.bg-nav-light {
+  background-color: #ffffff;
+}
+.svg-text {
+  text-align: center;
+}
+.sub-logos > img {
+  margin-left: 5px;
+}
+.checktext {
+  font-size: 10px;
+  font-weight: 500;
+}
+.checktext.sp {
+  font-weight: 800;
+}
+.span-p {
+  font-size: 24px;
+}
+.span-p > span {
+  color: #2c7ef8;
+}
+.main-2p {
+  font-size: 12px;
+}
+.footer {
+  background-color: #252f3d;
+  color: #fff;
+}
+.footer-text {
+  font-weight: 300;
+  text-align: center;
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .not-small-screen {
+    display: none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .small-screen {
+    display: none;
+  }
+  .svg-text > img {
+    display: inline;
+    margin-right: 10px;
+  }
+  .checktext {
+    display: inline;
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  .not-mid-screen {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-sub2 > img {
+    width: 80%;
+  }
+  .footer {
+    margin-top: 50px;
+  }
+  .main-img2,
+  .frame-12 {
+    width: 80%;
+  }
+  .main-2p {
+    font-size: 16px;
+  }
+}
